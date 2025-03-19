@@ -5,6 +5,7 @@
   --pink: #A91ED5;
   --yellow: #F3C516;
   --grey: #47494B;
+  --blue: #21305C;
 }
 
 @font-face {
@@ -17,7 +18,7 @@
 html,
 body,
 section {
-  block-size: 100%;
+  /*block-size: 100%;*/
 }
 
 html {
@@ -31,11 +32,20 @@ body {
   color: var(--black);
   background: var(--white);
 }
+.flex {
+  display: flex; 
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 900;
+}
 
 section {
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  height: 800px;
+  min-height: 800px;
   width: 100%;
 }
 
@@ -51,7 +61,6 @@ section {
 
 nav {
   position: fixed;
-  display: flex;
   width: 90px;
   height: 100vh;
   background-color: var(--black);
@@ -91,6 +100,7 @@ nav {
   -webkit-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.3);
+  z-index: 50;
 }
 
 .tooltip:before {
