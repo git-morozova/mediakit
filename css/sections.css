@@ -2142,11 +2142,88 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 68px 0 0 20px;
+    padding: 75px 0 0 0;
+    gap: 30px;
 }
 
 .projects2__main-item {
-    height: 265px;
-    padding-bottom: 27px;
+    width: 48%;
+    flex-direction: column;
+}
+
+.projects2__main-item img {
+    padding-bottom: 34px;
+}
+.projects2__main-item p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.projects2__block2 {
+    padding-top: 88px;
+    height: 90px;
+}
+
+.projects2__margin-center {
+    width: 37px;
+    position: relative;
+    background-color: var(--white);
+}
+
+.projects2__margin-left {
     width: auto;
+    background: url("../img/projects/orn_kaz.png") repeat-x center;
+    flex-grow: 1;
+}
+
+.projects2__margin-right {
+    width: auto;
+    background: url("../img/projects/orn_uzb.png") repeat-x center;
+    flex-grow: 1;
+}
+
+/* end */
+.end__block {
+    background: url("../img/end/end_back.svg") no-repeat center / 100%;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    color: var(--white);
+    position: relative;
+}
+
+.end__left {
+    height: 800px;
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+.end__logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 20px;
+    width: 504px;
+    height: 100px;
+    position: absolute;
+    top: 39%;
+}
+
+.end__logo1 {
+    width: 206px;
+}
+
+.end__logo2 {
+    padding: 9px 0 0 0;
+    width: 220px;
+}
+
+.end__logo3 {
+    grid-column: span 2 / span 2;
+    padding: 17px 47px 0 0px;
+    width: 187px;
+    margin: 0 auto;
 }
