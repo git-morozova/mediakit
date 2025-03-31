@@ -70,21 +70,22 @@ const goToTop = () => {
 };
 
 document.addEventListener("scroll", () => {
-  console.log("Scroll Height: ", scrollContainer().scrollHeight);
-  console.log("Client Height: ", scrollContainer().clientHeight);
+  //console.log("Scroll Height: ", scrollContainer().scrollHeight);
+  //console.log("Client Height: ", scrollContainer().clientHeight);
+	setTimeout(() => {
+		const scrolledPercentage =
+			(scrollContainer().scrollTop /
+			(scrollContainer().scrollHeight - scrollContainer().clientHeight)) *
+			100;
 
-  const scrolledPercentage =
-    (scrollContainer().scrollTop /
-      (scrollContainer().scrollHeight - scrollContainer().clientHeight)) *
-    100;
+		pageProgressBar.style.width = `${scrolledPercentage}%`;
 
-  pageProgressBar.style.width = `${scrolledPercentage}%`;
-
-  if (scrollContainer().scrollTop > showOnPx) {
-    backToTopButton.classList.remove("hidden");
-  } else {
-    backToTopButton.classList.add("hidden");
-  }
+		if (scrollContainer().scrollTop > showOnPx) {
+			backToTopButton.classList.remove("hidden");
+		} else {
+			backToTopButton.classList.add("hidden");
+		}
+	}, 100)
 });
 
 backToTopButton.addEventListener("click", goToTop);
