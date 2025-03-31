@@ -229,12 +229,7 @@ nav {
   top: 0;
   left: 90px;
   z-index: 50;
-}* {
-  box-sizing: border-box;
 }
-
-
-
 
 .animation {
   transform: translateX(200%);

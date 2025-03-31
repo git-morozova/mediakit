@@ -476,7 +476,7 @@
 .home4__item {
     flex-direction: column;
     width: 213px;
-    min-height: 248px;
+    min-height: 267px;
     align-items: center;
     justify-content: flex-start;
     background-color: var(--violet);
@@ -1026,6 +1026,7 @@
     font-size: 56px;
     line-height: 63px;
     font-weight: 700;
+    text-align: center;
 }
 
 .journals5__text2 {
@@ -1138,7 +1139,7 @@
 }
 
 .tv1__item-icon3 {
-    width: 86px;
+    width: 46px;
     padding: 17px 20px 22px 20px
 }
 
@@ -1577,7 +1578,7 @@
     max-width: 1250px;
     width: 100%;
     margin: 0 auto;
-    padding: 32px 20px 13px 7px;
+    padding: 32px 20px 13px 35px;
     justify-content: space-between;
     align-items: center;
     color: var(--white);
@@ -1796,7 +1797,7 @@
 .smm3__title {
     padding: 152px 28px 39px 0;
     color: var(--violet);
-    max-width: 661px;
+    max-width: 617px;
     margin: 0 0 0 auto;
 }
 
@@ -1836,7 +1837,7 @@
     max-width: 625px;
     width: 100%;
     margin: 0  0 0 auto;
-    padding: 0 0 41px 0;
+    padding: 0 0 41px 20px;
 }
 
 .smm2__nums-col1 {
@@ -1944,7 +1945,7 @@
     max-width: 481px;
     width: 100%;
     margin: 0 auto 0 0;
-    padding: 36px 0 40px 0px;
+    padding: 36px 0 40px 20px;
     justify-content: center;
 }
 
@@ -2024,7 +2025,7 @@
     max-width: 1250px;
     width: 100%;
     margin: 0 auto;
-    padding: 39px 20px 30px 0px;
+    padding: 39px 20px 30px 20px;
     justify-content: space-between;
     align-items: center;
     color: var(--black);
@@ -2105,7 +2106,7 @@
     max-width: 1250px;
     width: 100%;
     margin: 0 auto;
-    padding: 2px 20px 43px 0px;
+    padding: 2px 20px 43px 10px;
     color: var(--white);
 }
 
@@ -2113,7 +2114,7 @@
     max-width: 650px;
     width: 100%;
     margin: 0 auto 0 0;
-    padding: 64px 0 59px 0;
+    padding: 64px 0 59px 0px;
     justify-content: center;
 }
 
