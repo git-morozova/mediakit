@@ -483,9 +483,9 @@
 }
 
 .home4__item-icon {
-    width: 95px;
-    height: 95px;
-    padding: 39px 0 20px 0;
+    width: 121px;
+    height: 139px;
+    padding: 30px 0 10px 0;
 }
 
 .home4__item-text {
@@ -1023,7 +1023,7 @@
 .journals5__title2 {
     padding: 30px 0 0 0;
     color: var(--yellow);
-    font-size: 63px;
+    font-size: 56px;
     line-height: 63px;
     font-weight: 700;
 }
@@ -1138,7 +1138,7 @@
 }
 
 .tv1__item-icon3 {
-    width: 46px;
+    width: 86px;
     padding: 17px 20px 22px 20px
 }
 
@@ -1577,7 +1577,7 @@
     max-width: 1250px;
     width: 100%;
     margin: 0 auto;
-    padding: 32px 20px 13px 20px;
+    padding: 32px 20px 13px 7px;
     justify-content: space-between;
     align-items: center;
     color: var(--white);
@@ -1796,7 +1796,7 @@
 .smm3__title {
     padding: 152px 28px 39px 0;
     color: var(--violet);
-    max-width: 613px;
+    max-width: 661px;
     margin: 0 0 0 auto;
 }
 
@@ -1903,7 +1903,7 @@
 }
 
 .smm4__title {
-    padding: 202px 20px 39px 20px;
+    padding: 202px 20px 39px 40px;
     color: var(--violet);
     max-width: 613px;
 }
@@ -1922,7 +1922,7 @@
     max-width: 1250px;
     width: 100%;
     margin: 0 auto;
-    padding: 32px 20px 43px 20px;
+    padding: 32px 20px 43px 0px;
     color: var(--white);
 }
 
@@ -1944,7 +1944,7 @@
     max-width: 481px;
     width: 100%;
     margin: 0 auto 0 0;
-    padding: 36px 0 40px 0;
+    padding: 36px 0 40px 20px;
     justify-content: center;
 }
 
@@ -2063,7 +2063,7 @@
 }
 .mail1__bottom {
     width: 100%;
-    max-width: 1284px;
+    max-width: 1250px;
     margin: 0 auto;
 }
 .mail1__bottom ul {
@@ -2094,7 +2094,7 @@
 }
 
 .mail2__title {
-    padding: 106px 20px 39px 20px;
+    padding: 106px 20px 39px 35px;
     color: var(--violet);
     max-width: 581px;
 }
