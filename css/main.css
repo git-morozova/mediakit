@@ -233,7 +233,7 @@ nav {
 
 .animation {
   transform: translateX(200%);
-  transition: transform 1.1s cubic-bezier(.25,.99,.71,1.16);
+  transition: transform 1.1s cubic-bezier(.25,.99,.71,1.12);
 }
 .animation:nth-of-type(even) {
   transform: translateX(-200%);
