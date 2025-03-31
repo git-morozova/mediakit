@@ -11,7 +11,7 @@
 }
 .home1__right {
     position: relative;    
-    right: -726px;
+    right: -818px;
     top: 0;
 }
 .home1__anim1 {
@@ -190,7 +190,7 @@
 
 .home2__logo2 {
     padding: 107px 0 0 88px;
-    width: 246px;
+    width: 344px;
 }
 
 .home2__title1 {
@@ -454,7 +454,7 @@
 }
 
 .home4__year {
-    padding: 148px 20px 0 24px;
+    padding: 148px 20px 0 20px;
     color: var(--violet);
     font-size: 94px;
     line-height: 94px;
@@ -462,12 +462,12 @@
 }
 
 .home4__title {
-    padding: 24px 20px 0 24px;
+    padding: 24px 20px 0 20px;
 }
 
 .home4__row {
     padding: 44px 0;
-    gap: 40px;
+    gap: 43px;
     align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
@@ -518,7 +518,7 @@
 .journals1__logo {
     max-width: 386px;
     width: 100%;
-    padding: 73px 0 128px 0;
+    padding: 73px 10px 128px 10px;
 }
 
 .journals1__title {
@@ -1102,7 +1102,7 @@
     align-self: center;
     flex-direction: column;
     gap: 10px;
-    height: 213px;
+    height: 240px;
     padding-bottom: 27px;
     min-width: 315px;
 }
@@ -1635,7 +1635,7 @@
 }
 
 .smm1__bottom-inner {
-    padding: 45px 0;
+    padding: 45px 10px;
     gap: 50px;
 }
 
@@ -1710,13 +1710,13 @@
     max-width: 1250px;
     width: 100%;
     margin: 0 auto;
-    padding: 32px 20px 43px 20px;
+    padding: 32px 20px 43px 0px;
     color: var(--white);
 }
 
 .smm2__img {
     position: absolute;
-    top: 101px;
+    top: 350px;
     right: 0;
     width: 173px;
     z-index: 5;
@@ -1732,7 +1732,7 @@
     max-width: 650px;
     width: 100%;
     margin: 0 auto 0 0;
-    padding: 64px 0 66px 0;
+    padding: 64px 0 66px 10px;
     justify-content: center;
 }
 
@@ -1903,7 +1903,7 @@
 }
 
 .smm4__title {
-    padding: 202px 20px 39px 40px;
+    padding: 202px 20px 39px 20px;
     color: var(--violet);
     max-width: 613px;
 }
@@ -1944,7 +1944,7 @@
     max-width: 481px;
     width: 100%;
     margin: 0 auto 0 0;
-    padding: 36px 0 40px 20px;
+    padding: 36px 0 40px 0px;
     justify-content: center;
 }
 
@@ -2003,10 +2003,10 @@
 }
 
 .mail1__title {
-    padding: 0 20px 0 20px;
+    padding: 0 20px 0 0px;
 }
 .mail1__title-text {
-    padding: 40px 20px 0 20px;
+    padding: 40px 20px 0 0px;
     max-width: 953px;
 }
 
@@ -2024,7 +2024,7 @@
     max-width: 1250px;
     width: 100%;
     margin: 0 auto;
-    padding: 39px 20px 30px 20px;
+    padding: 39px 20px 30px 0px;
     justify-content: space-between;
     align-items: center;
     color: var(--black);
@@ -2063,7 +2063,7 @@
 }
 .mail1__bottom {
     width: 100%;
-    max-width: 1250px;
+    max-width: 1284px;
     margin: 0 auto;
 }
 .mail1__bottom ul {
@@ -2094,7 +2094,7 @@
 }
 
 .mail2__title {
-    padding: 106px 20px 39px 35px;
+    padding: 106px 20px 39px 15px;
     color: var(--violet);
     max-width: 581px;
 }
@@ -2105,7 +2105,7 @@
     max-width: 1250px;
     width: 100%;
     margin: 0 auto;
-    padding: 2px 20px 43px 20px;
+    padding: 2px 20px 43px 0px;
     color: var(--white);
 }
 
