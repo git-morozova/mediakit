@@ -2,7 +2,7 @@ $(function () {
 	$('.scroll-page').on('click', function () {
 		var offset = 0;
 		var speed = 1000;
-		if (window.screen.width < 768) {
+		if (window.screen.width < 769) {
 			speed = 0;
 		}
 		var target = $(this.hash);
@@ -51,11 +51,13 @@ let tooltipToggle = (item) => {
 		document.querySelector(`.tooltip_${item}`).style.cssText = 'visibility: hidden; opacity: 0;';
 	});
 }
-tooltipToggle("journals");
-tooltipToggle("tv");
-tooltipToggle("smm");
-tooltipToggle("mail");
-tooltipToggle("projects");
+if (window.screen.width > 768) {	
+	tooltipToggle("journals");
+	tooltipToggle("tv");
+	tooltipToggle("smm");
+	tooltipToggle("mail");
+	tooltipToggle("projects");
+}
 
 /* progress bar + toTop btn */
 const showOnPx = 100;
@@ -91,13 +93,16 @@ document.addEventListener("scroll", () => {
 	}, 100)
 });
 
-backToTopButton.addEventListener("click", goToTop);
+if (window.screen.width > 768) {	
+	backToTopButton.addEventListener("click", goToTop);
+}
 
 
 /* animation */
 const box = document.querySelectorAll('.animation');
-
-window.addEventListener('scroll', checkBoxes);
+if (window.screen.width > 768) {	
+	window.addEventListener('scroll', checkBoxes);
+}
 
 checkBoxes();
 
