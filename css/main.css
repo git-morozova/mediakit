@@ -306,6 +306,14 @@ body {
   transition: none;
   transform: none;
 }
+
+.animation:nth-of-type(even) {
+  transform: none;
+}
+
+.animation.show {
+  transform: none;
+}
 .progress-bar {
   left: 0;
 }
