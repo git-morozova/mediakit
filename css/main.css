@@ -304,6 +304,7 @@ body {
 }
 .animation {
   transition: none;
+  transform: none;
 }
 .progress-bar {
   left: 0;
