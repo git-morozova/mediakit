@@ -2,6 +2,9 @@ $(function () {
 	$('.scroll-page').on('click', function () {
 		var offset = 0;
 		var speed = 1000;
+		if (window.screen.width < 768) {
+			speed = 0;
+		}
 		var target = $(this.hash);
 
 		$('nav .menu a').each(function () {

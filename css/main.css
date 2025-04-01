@@ -305,6 +305,9 @@ body {
 .animation {
   transition: none;
 }
+.progress-bar {
+  left: 0;
+}
 /*
 .mask-journals {
   mask-image: url("../img/icons_menu/journals_mob.svg");
@@ -329,8 +332,5 @@ body {
 .mask-projects {
   mask-image: url("../img/icons_menu/projects_mob.svg");
   -webkit-mask-image: url("../img/icons_menu/projects_mob.svg");
-}
-.progress-bar {
-  left: 0;
 }*/
 }
