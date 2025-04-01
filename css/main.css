@@ -147,12 +147,16 @@ nav {
 .menu a.active {
   background-color: var(--yellow);
 }
+.mob_menu-item {
+  display: none;
+  color: var(--white);
+}
 
 .scroll-page {
   padding: 40px 0;
   cursor: pointer;
   transition: all ease-out 200ms;
-  width: 55px;
+  width: 80px;
 }
 
 .scroll-page:hover {
@@ -233,8 +237,9 @@ nav {
 
 .animation {
   transform: translateX(200%);
-  transition: transform 1.1s cubic-bezier(.25,.99,.71,1.12);
+  transition: transform 1.1s cubic-bezier(.25, .99, .71, 1.12);
 }
+
 .animation:nth-of-type(even) {
   transform: translateX(-200%);
 }
@@ -244,10 +249,52 @@ nav {
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
-  
-h2 {
-  font-size: 35px;
-  line-height: 40px;
-  font-weight: 900;
+
+  h2 {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 900;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-left: 0;
+  }
+
+  nav {
+    width: 100%;
+    height: 90px;
+    bottom: 0;
+    top: auto;
+    -webkit-box-shadow: 6px 0px 14px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 6px 0px 14px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 6px 0px 14px 0px rgba(0, 0, 0, 0.5);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu {
+    display: flex;
+    padding: 0 40px;
+  }
+
+  .menu a:first-child {
+    margin-bottom: 0;
+    margin-right: 30px;
+    mask-size: auto 70px;
+    -webkit-mask-size: auto 70px;
+  }
+
+  .mask {
+    mask-size: auto 55px;
+    -webkit-mask-size: auto 55px;
+  }
+  .tooltip {
+   display: none;
+  }
+  .mob_menu-item {
+    display: block;
 }
 }
