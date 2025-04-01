@@ -242,3 +242,12 @@ nav {
 .animation.show {
   transform: translateX(0);
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  
+h2 {
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 900;
+}
+}

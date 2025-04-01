@@ -20,7 +20,7 @@
     top: 8px;
     width: 133px;
     z-index: 10;
-    animation: move 15s infinite;
+    animation: move 20s infinite;
     animation-direction: alternate;
     animation-timing-function: linear;
 }
@@ -2335,12 +2335,130 @@
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
-    .home1__left {
-        max-width: 850px;
+    .home1__left, .journals4__main, .tv1__main, .smm1__main, .mail1__main, .projects1__main, .projects2__top,
+     .projects2__main {
+        max-width: 1000px;
     }
     .home1__right {
-        right: -1100px;
+        right: -1200px;
     }
+    .home2__left {
+        max-width: 498px;
+    }
+    .home2__logo2, .home2__title2,  .home2__text2,  .home3__title, .home3__nums, .home4__year,   .home4__title,
+    .journals1__left, .journals2__left, .journals2__right, .journals3__left, .journals3__text, .journals3__num,
+    .journals4__main, .journals4__title, .journals4__bottom, .journals5__title, .journals5__title-text,  .journals5__left,
+    .journals5__right, .tv1__logo, .tv1__title, .tv1__bottom-inner, .tv2__left, .tv2__text, .tv2__num, 
+    .tv3__title-text, .tv3__left, .tv3__right, .tv4__left, .tv4__right, .smm1__title, .smm1__text, .smm1__main,
+    .smm1__bottom-inner, .smm2__title, .smm2__nums, .smm2__icons, .smm4__title, .smm4__nums, .mail1__container-inner,
+    .mail2__title, .mail2__nums, .mail2__bottom, .projects1__top, .projects1__main, .projects2__top, .projects2__main,
+    .end__left   {
+        padding-left: 50px;
+    }
+    .journals2__right, .journals3__left, .journals4__main, .journals5__left, .tv1__bottom-inner, .tv2__left,
+    .tv4__right, .smm1__main, .smm1__bottom-inner, .smm2__title, .mail1__container-inner, .mail2__nums, .mail2__bottom,
+    .projects1__top, .projects1__main, .projects2__top, .projects2__main {
+        padding-right: 50px;
+    }
+    .home2__logo2 {
+        width: 249px;
+    }
+    .journals1__cover {
+        flex-basis: 150px;
+    }
+    .journals2__text {
+        font-size: 17px;
+        max-width: 308px;
+    }
+    .journals4__left-num {
+        font-size: 78px;
+        line-height: 78px;
+    }
+    .journals4__right-item {
+        padding-left: 10px;
+    }
+    .journals5__title2, .tv3__title2, .tv3__nums-big, .journals5__nums-big, .smm2__nums-big, .mail2__nums-big {
+        font-size: 47px;
+        line-height: 47px;
+    }
+    .journals5__title-text {
+        padding-right: 166px;
+    }
+    .tv1__item-title, .tv1__item-text, .tv1__bottom-text {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .tv4__text {
+        font-size: 25px;
+    }
+    .tv1__item {
+        height: 215px;
+    }
+    .tv2__right {
+        padding: 104px 0 0 0;
+    }
+    .tv3__title {
+        padding: 64px 20px 33px 50px;
+    }
+    .tv4__text {
+        max-width: 316px;
+    }
+    .smm2__screen {
+        right: -328px;
+        width: 795px;
+    }
+    .smm2__nums, .mail2__bottom {
+        max-width: 554px;
+    }
+    .smm3__screen {
+        left: -21px;
+        width: 548px;
+    }
+    .smm3__nums, .smm3__icons {
+        max-width: 603px;
+    }
+    .smm3__main {
+        max-width: 1284px;
+        padding: 45px 0px 43px 0px;
+    }
+    .smm3__title {
+        padding: 152px 0px 39px 0;
+        max-width: 603px;
+    }
+    .smm4__screen {
+        top: 124px;
+        right: -3px;
+        width: 600px;
+    }
+    .mail1__img {
+        right: -125px;
+        width: 333px;
+    }
+    .mail1__bottom ul {
+        padding: 50px 20px 34px 73px;
+    }
+    .mail2__nums {
+        padding-top: 100px;
+        max-width: 531px;
+    }
+    .mail2__main {
+        padding-left: 0px;
+    }
+
+.mail2__screen {
+    right: -100px;
+}
+.mail2__bottom {
+    line-height: 38px;
+}
+.projects1__logo {
+    padding-right: 230px;
+}
+.projects1__main {
+    justify-content: center;
+    gap: 30px;
+}
+  
 }
 
 @media screen and (min-width: 769px) and (max-width: 1199px) {
