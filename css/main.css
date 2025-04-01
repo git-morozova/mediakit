@@ -290,13 +290,19 @@ body {
 
   .mask {
     mask-size: auto 85px;
-    -webkit-mask-size: auto 85px;
+    -webkit-mask-size: auto 67px;
+    mask-position: 10px 7px;
+    -webkit-mask-position: 10px 7px;
   }
   .tooltip, .back-to-top {
    display: none;
   }
   
-
+.mask-mail {
+  mask-image: url("../img/icons_menu/mail_sm.svg");
+  -webkit-mask-image: url("../img/icons_menu/mail_sm.svg");
+}
+/*
 .mask-journals {
   mask-image: url("../img/icons_menu/journals_mob.svg");
   -webkit-mask-image: url("../img/icons_menu/journals_mob.svg");
@@ -323,5 +329,5 @@ body {
 }
 .progress-bar {
   left: 0;
-}
+}*/
 }
