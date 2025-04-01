@@ -302,6 +302,9 @@ body {
   mask-image: url("../img/icons_menu/mail_sm.svg");
   -webkit-mask-image: url("../img/icons_menu/mail_sm.svg");
 }
+.animation {
+  transition: none;
+}
 /*
 .mask-journals {
   mask-image: url("../img/icons_menu/journals_mob.svg");
