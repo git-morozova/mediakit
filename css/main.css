@@ -32,7 +32,9 @@ body {
   color: var(--black);
   background: var(--white);
 }
-
+.mob {
+  display: none;
+}
 .flex {
   display: flex;
 }
@@ -254,15 +256,22 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-  
-body {
-  min-width: 595px;
-  max-width: 768px;
-}
+
+  body {
+    min-width: 595px;
+    max-width: 768px;
+  }
+  .mob {
+    display: block;
+  }
   .container {
     margin-left: 0;
+    min-height: 842px;
   }
-
+  h2 {
+    font-size: 32px;
+    line-height: 32px;
+}
   nav {
     width: 100%;
     height: 120px;
@@ -294,52 +303,36 @@ body {
     mask-position: 10px 7px;
     -webkit-mask-position: 10px 7px;
   }
-  .tooltip, .back-to-top {
-   display: none;
+
+  .tooltip,
+  .back-to-top {
+    display: none;
   }
-  
-.mask-mail {
-  mask-image: url("../img/icons_menu/mail_sm.svg");
-  -webkit-mask-image: url("../img/icons_menu/mail_sm.svg");
-}
-.animation {
-  transition: none;
-  transform: none;
-}
 
-.animation:nth-of-type(even) {
-  transform: none;
-}
+  .mask-mail {
+    mask-image: url("../img/icons_menu/mail_sm.svg");
+    -webkit-mask-image: url("../img/icons_menu/mail_sm.svg");
+  }
 
-.animation.show {
-  transform: none;
-}
-.progress-bar {
-  left: 0;
-}
-/*
-.mask-journals {
-  mask-image: url("../img/icons_menu/journals_mob.svg");
-  -webkit-mask-image: url("../img/icons_menu/journals_mob.svg");
-}
+  .mask-mail {
+    mask-position: 5px 7px;
+    -webkit-mask-position: 5px 7px;
+  }
 
-.mask-tv {
-  mask-image: url("../img/icons_menu/tv_mob.svg");
-  -webkit-mask-image: url("../img/icons_menu/tv_mob.svg");
-}
+  .animation {
+    transition: none;
+    transform: none;
+  }
 
-.mask-smm {
-  mask-image: url("../img/icons_menu/smm_mob.svg");
-  -webkit-mask-image: url("../img/icons_menu/smm_mob.svg");
-}
+  .animation:nth-of-type(even) {
+    transform: none;
+  }
 
-.mask-mail {
-  mask-image: url("../img/icons_menu/mail_mob.svg");
-  -webkit-mask-image: url("../img/icons_menu/mail_mob.svg");
-}
+  .animation.show {
+    transform: none;
+  }
 
-.mask-projects {
-  mask-image: url("../img/icons_menu/projects_mob.svg");
-  -webkit-mask-image: url("../img/icons_menu/projects_mob.svg");
-}*/
+  .progress-bar {
+    left: 0;
+  }
 }
