@@ -796,6 +796,7 @@
 
     .journals3__title a {
         text-decoration: none;
+        color: var(--violet);
         border-bottom: 3px solid var(--violet);
     }
 
@@ -3297,6 +3298,7 @@
 
     .journals3__title a {
         text-decoration: none;
+        color: var(--violet);
         border-bottom: 3px solid var(--violet);
     }
 
@@ -3617,7 +3619,6 @@
         align-items: center;
         color: var(--white);
         flex-wrap: wrap;
-
     }
 
     .tv1__item {
