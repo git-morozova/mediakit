@@ -1751,7 +1751,6 @@
     }
 
     .smm2__nums {
-        max-width: 650px;
         width: 100%;
         margin: 0 auto 0 0;
         padding: 64px 0 66px 10px;
@@ -1797,8 +1796,6 @@
     }
 
     .smm2__item-text {
-        font-size: 22px;
-        line-height: 27px;
         font-weight: 400;
         padding: 0 62px 0 21px;
     }
@@ -1974,7 +1971,6 @@
     }
 
     .smm4__nums {
-        max-width: 481px;
         width: 100%;
         margin: 0 auto 0 0;
         padding: 36px 0 40px 20px;
@@ -2093,8 +2089,6 @@
 
     .mail1__main-text {
         padding: 7px 0 14px 0;
-        font-size: 22px;
-        line-height: 22px;
         font-weight: 400;
     }
 
@@ -2610,14 +2604,7 @@
     }
 }
 
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-    .home1__left {
-        max-width: 850px;
-    }
-}
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
 
     /* home1 */
     .home1__block {
@@ -2796,7 +2783,6 @@
     }
 
     .home3__nums {
-        flex-direction: column;
         padding: 47px 50px 25px 50px;
         gap: 16px;
     }
@@ -2834,7 +2820,6 @@
         width: 140px;
         align-items: center;
         justify-content: center;
-        zoom: 0.65;
         padding-bottom: 30px;
     }
 
@@ -2992,13 +2977,9 @@
         align-items: center;
         justify-content: flex-start;
         background-color: var(--violet);
-        width: 148px;
-        min-height: 174px;
     }
 
     .home4__item-icon {
-        width: 121px;
-        height: 139px;
         zoom: 0.7;
         padding: 19px 0 10px 0;
     }
@@ -3018,12 +2999,12 @@
         width: 100%;
         color: var(--white);
         position: relative;
-        min-height: 842px;
+        min-height: 600px;
         background-color: var(--violet);
     }
 
     .journals1__left {
-        min-height: 842px;
+        min-height: 600px;
         background: url("../img/home/home1_back-mob.svg") no-repeat right bottom / 100%;
     }
 
@@ -3058,14 +3039,10 @@
 
     .journals1__covers {
         gap: 17px;
-        padding: 0 50px 50px 50px;
+        padding: 0 40px 50px 50px;
         flex-wrap: wrap;
     }
 
-    .journals1__cover {
-        flex-grow: 1;
-        flex-basis: 153px;
-    }
 
     .journals1__cover img {
         width: 100%;
@@ -3150,8 +3127,6 @@
     }
 
     .journals2__num {
-        font-size: 30px;
-        line-height: 30px;
         font-weight: 900;
         color: var(--yellow);
         padding: 0px 0 8px 0;
@@ -3159,12 +3134,8 @@
     }
 
     .journals2__text {
-        font-size: 11px;
-        line-height: 14px;
         font-weight: 300;
         max-width: 382px;
-        padding: 0px 0 19px 0;
-        max-width: 218px;
     }
 
     .journals2__text2 {
@@ -3241,8 +3212,6 @@
     }
 
     .journals3__bottomtext {
-        font-size: 13px;
-        line-height: 20px;
         font-weight: 400;
         display: block;
         max-width: 810px;
@@ -3279,11 +3248,7 @@
     }
 
     .journals3__title-text {
-        font-size: 16px;
-        line-height: 19px;
         font-weight: 400;
-        padding: 23px 50px 0 50px;
-        max-width: 495px;
     }
 
     .journals3__title a {
@@ -3333,7 +3298,7 @@
         font-weight: 700;
         width: 100%;
         margin: 0 auto;
-        padding: 15px 0 10px 0;
+        padding: 15px 0 30px 0;
         flex-direction: column;
     }
 
@@ -3363,17 +3328,15 @@
         flex-direction: column;
         gap: 10px;
         height: 73px;
-        padding: 0 27px 27px 0;
-        min-width: 100px;
     }
 
     .journals4__right-num {
-        white-space: nowrap
+        white-space: nowrap;
+        text-align: center;
     }
 
     .journals4__right-logo {
         margin: 0 auto;
-        zoom: 0.7;
     }
 
     .journals4__right-logo1 {
@@ -3417,8 +3380,6 @@
     }
 
     .journals4__bottom {
-        font-size: 14px;
-        line-height: 19px;
         font-weight: 400;
         max-width: 493px;
         width: 100%;
@@ -3446,10 +3407,7 @@
     }
 
     .journals5__title-text {
-        font-size: 16px;
-        line-height: 19px;
         font-weight: 400;
-        padding: 0 120px 20px 0px;
     }
 
     .journals5__block2 {
@@ -3519,8 +3477,6 @@
 
     .journals5__nums-text {
         padding: 11px 0 0 0;
-        font-size: 18px;
-        line-height: 22px;
         font-weight: 400;
         color: var(--black);
     }
@@ -3599,8 +3555,6 @@
         font-size: 39px;
         line-height: 39px;
         font-weight: 700;
-        max-width: 493px;
-        width: 100%;
         margin: 0 auto;
         padding: 27px 50px 11px 50px;
         justify-content: center;
@@ -3612,23 +3566,12 @@
     .tv1__item {
         align-self: center;
         flex-direction: column;
-        height: 133px;
-        padding: 0 16px 14px 0;
         min-width: 229px;
-    }
-
-    .tv1__item-left,
-    .tv1__item-right,
-    .tv1__item-icon5,
-    .tv1__item-text {
-        zoom: 0.7;
     }
 
     .tv1__item-title {
         padding: 0 0 16px 0;
         color: var(--yellow);
-        font-size: 19px;
-        line-height: 19px;
         font-weight: 700;
         text-align: center;
     }
@@ -3665,7 +3608,6 @@
     }
 
     .tv1__item-icon5 {
-        width: 86px;
         padding: 0px 0 13px 0;
         margin: 0 auto
     }
@@ -3749,10 +3691,7 @@
     }
 
     .tv2__title-text {
-        font-size: 16px;
-        line-height: 16px;
         font-weight: 400;
-        padding: 17px 33px 0 50px;
     }
 
     .tv2__screen {
@@ -3780,18 +3719,13 @@
     }
 
     .tv2__num {
-        font-size: 39px;
-        line-height: 39px;
         font-weight: 900;
         color: var(--yellow);
         max-width: 187px;
     }
 
     .tv2__text {
-        font-size: 16px;
-        line-height: 20px;
         font-weight: 300;
-        max-width: 179px;
     }
 
     .tv2__num1 {
@@ -3801,7 +3735,6 @@
 
     .tv2__text1 {
         grid-row-start: 3;
-        padding: 2px 0 11px 50px;
     }
 
     .tv2__num2 {
@@ -3812,7 +3745,6 @@
     .tv2__text2 {
         grid-column-start: 1;
         grid-row-start: 5;
-        padding: 2px 0 11px 50px;
     }
 
     .tv2__num3 {
@@ -3822,12 +3754,9 @@
 
     .tv2__text3 {
         grid-row-start: 5;
-        padding: 2px 0 11px 0px;
     }
 
     .tv2__bottomtext {
-        font-size: 11px;
-        line-height: 16px;
         font-weight: 400;
         display: block;
         padding: 8px 50px 78px 31px;
@@ -3885,10 +3814,7 @@
     }
 
     .tv3__title-text {
-        font-size: 16px;
-        line-height: 19px;
         font-weight: 400;
-        padding: 0 120px 20px 0px;
     }
 
     .tv3__block2 {
@@ -3931,14 +3857,10 @@
 
     .tv3__nums-big {
         color: var(--violet);
-        font-size: 39px;
-        line-height: 39px;
         font-weight: 700;
     }
 
     .tv3__nums-text {
-        font-size: 18px;
-        line-height: 22px;
         font-weight: 400;
         color: var(--black);
     }
@@ -3958,6 +3880,7 @@
         max-width: 561px;
         padding: 20px 0 0 0;
         text-align: center;
+        margin: 0 auto;
     }
 
     .tv3__logo2 {
@@ -4080,7 +4003,7 @@
         z-index: 5;
     }
 
-    .smm1__title {        
+    .smm1__title {
         width: 80%;
         padding: 63px 20px 26px 50px;
         color: var(--violet);
@@ -4088,8 +4011,6 @@
 
     .smm1__text {
         padding: 7px 0 33px 50px;
-        font-size: 16px;
-        line-height: 20px;
         font-weight: 400;
         width: 65%;
     }
@@ -4194,8 +4115,6 @@
 
     .smm1__nums-text {
         padding: 10px 0 0 0;
-        font-size: 16px;
-        line-height: 17px;
         font-weight: 400;
     }
 
@@ -4227,9 +4146,6 @@
         font-size: 30px;
         line-height: 30px;
         font-weight: 400;
-        max-width: 1250px;
-        width: 100%;
-        margin: 0 auto;
         padding: 32px 50px 127px 50px;
         color: var(--white);
     }
@@ -4281,8 +4197,6 @@
 
     .smm2__nums-text {
         padding: 13px 0 0 0;
-        font-size: 22px;
-        line-height: 27px;
         font-weight: 400;
     }
 
@@ -4332,9 +4246,6 @@
         font-size: 30px;
         line-height: 30px;
         font-weight: 400;
-        max-width: 1250px;
-        width: 100%;
-        margin: 0 auto;
         padding: 61px 50px 127px 50px;
         color: var(--white);
         display: flex;
@@ -4358,12 +4269,6 @@
         z-index: 5;
     }
 
-    .smm3__nums {
-        max-width: 416px;
-        padding: 0 42px 55px 25px;
-        gap: 74px;
-    }
-
     .smm3__nums-col1 {
         flex-direction: column;
     }
@@ -4384,8 +4289,6 @@
 
     .smm3__nums-text {
         padding: 13px 0 0 0;
-        font-size: 22px;
-        line-height: 27px;
         font-weight: 400;
     }
 
@@ -4406,8 +4309,6 @@
     }
 
     .smm3__item-text {
-        font-size: 22px;
-        line-height: 27px;
         font-weight: 400;
         padding: 0 42px 0 21px;
     }
@@ -4438,9 +4339,6 @@
         font-size: 30px;
         line-height: 30px;
         font-weight: 400;
-        max-width: 1250px;
-        width: 100%;
-        margin: 0 auto;
         padding: 32px 50px 66px 50px;
         color: var(--white);
     }
@@ -4492,8 +4390,6 @@
 
     .smm4__nums-text {
         padding: 13px 0 0 0;
-        font-size: 22px;
-        line-height: 27px;
         font-weight: 400;
     }
 
@@ -4503,8 +4399,6 @@
         width: 100%;
         color: var(--black);
         position: relative;
-        font-size: 16px;
-        line-height: 19px;
         font-weight: 400;
     }
 
@@ -4514,9 +4408,6 @@
         margin: 0 auto;
     }
 
-    .mail1__container-inner {
-        padding: 62px 20px 24px 50px;
-    }
 
     .mail1__img-mob {
         position: absolute;
@@ -4546,12 +4437,10 @@
         font-size: 39px;
         line-height: 39px;
         font-weight: 700;
-        max-width: 400px;
         padding: 39px 0px 69px 50px;
         justify-content: space-between;
         align-items: center;
         color: var(--black);
-        gap: 18px;
         flex-wrap: wrap;
     }
 
@@ -4606,15 +4495,16 @@
         color: var(--white);
         position: relative;
     }
+
     .mail2__back {
         position: absolute;
         bottom: 0;
         right: 0;
         z-index: 1;
     }
+
     .mail2__screen {
         position: absolute;
-        bottom: -7px;
         left: -121px;
         width: 676px;
         z-index: 5;
@@ -4641,8 +4531,6 @@
     }
 
     .mail2__nums {
-        max-width: 375px;
-        padding: 25px 0 17px 50px;
         justify-content: center;
     }
 
@@ -4669,14 +4557,10 @@
 
     .mail2__nums-text {
         padding: 6px 0 0 0;
-        font-size: 15px;
-        line-height: 15px;
         font-weight: 400;
     }
 
     .mail2__bottom {
-        font-size: 12px;
-        line-height: 16px;
         padding: 0 0 82px 50px;
     }
 
@@ -4725,26 +4609,27 @@
         margin: 0 auto;
         padding: 44px 38px 57px 30px;
         flex-wrap: wrap;
-        max-width: 525px; 
-        gap: 17px; 
+        gap: 17px;
     }
 
     .projects1__main-item2 {
-        width: 100%;   
+        width: 100%;
     }
 
     .projects1__main-item1 {
-        width: 53%;   
+        width: 53%;
     }
 
     .projects1__main-item3 {
-        width: 43%;   
+        width: 43%;
     }
+
     .projects1__main-item4 {
-        width: 47%;   
+        width: 47%;
     }
+
     .projects1__main-item5 {
-        width: 49%;   
+        width: 49%;
     }
 
     /* projects2 */
@@ -4763,6 +4648,7 @@
         padding: 16px 70px 37px 50px;
         justify-content: space-between;
     }
+
     .projects2__top h2 {
         padding: 16px 0 0 0;
     }
@@ -4799,7 +4685,6 @@
 
     .projects2__main-item {
         flex-direction: column;
-        max-width: 453px;
     }
 
     .projects2__main-item img {
@@ -4808,32 +4693,30 @@
 
     .projects2__main-item p {
         text-align: center;
-        font-size: 14px;
-        line-height: 14px;
         font-weight: 400;
         color: var(--black);
     }
- 
+
     .projects2__main-item2 {
         grid-column-start: 2;
         grid-row-start: 2;
-        padding:  0 0 49px 0;
+        padding: 0 0 49px 0;
         margin: -10px 0 0 0;
     }
-    
+
     .projects2__img_left {
         grid-row: span 2 / span 2;
         width: 50px;
         padding: 14px 0 0 0;
-    }    
-    
+    }
+
     .projects2__img_right {
         grid-row: span 2 / span 2;
         grid-column-start: 3;
         grid-row-start: 1;
         margin: auto 0 0 0;
     }
-         
+
     /* end */
     .end__block {
         background-color: var(--violet);
@@ -4851,6 +4734,7 @@
         background: url(../img/home/home1_back-mob.svg) no-repeat right bottom / 100%;
         height: 842px;
     }
+
     .end__year {
         font-size: 100px;
         line-height: 134px;
@@ -4861,10 +4745,8 @@
 
     .end__logos {
         width: 504px;
-        display: flex
-;
+        display: flex;
         gap: 20px;
-        padding: 42px 0 0 56px;
         flex-direction: column;
     }
 
@@ -4910,7 +4792,416 @@
     .tv4__margin-left,
     .tv4__img_topleft,
     .mail1__img,
-    .projects1__img_top, .projects2__img_top, .projects2__block2 {
+    .projects1__img_top,
+    .projects2__img_top,
+    .projects2__block2 {
         display: none;
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .home1__left {
+        max-width: 1199px;
+    } 
+    .home2__title1, .home2__title2 {
+        max-width: 1000px;
+    }
+    .home2__text1, .home2__text2-mob {
+        font-size: 20px;
+        line-height: 26px;
+        max-width: 1000px;
+    }
+    .home1__logos {
+        padding: 88px 0 0 56px;
+    }
+    .home3__item {
+        zoom: 0.9;
+    }
+    .home4__item {
+        width: 178px;
+        min-height: 186px;
+    }
+    .home4__item-icon {
+        width: 156px;
+        height: 145px;
+    }
+    .home4__item-text {
+        font-size: 16px;
+    }
+    .home4__block {
+        min-height: 600px;
+    }
+    .journals1__cover {
+        flex-basis: 153px;
+    }
+    .journals2__bottomtext {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .journals2__num {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .journals2__text {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 377px;
+        padding: 0px 20px 39px 0;
+    }
+    .journals3__title-text {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 35px 50px 33px 50px;
+    }
+    .journals3__bottomtext {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .journals4__right-item {
+        min-width: 150px;
+        padding: 0 27px 50px 0;
+    }
+    .journals4__bottom {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .journals5__title-text {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 0 120px 20px 0px;
+    }
+    .journals5__nums-text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .tv1__item-left,
+    .tv1__item-right,
+    .tv1__item-icon5,
+    .tv1__item-text {
+        zoom: 0.9;
+    }
+    .tv1__item-title {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .tv1__item {
+        height: 200px;
+        padding: 0 50px 14px 0;
+    }
+    .tv1__item-icon5 {
+        width: 94px;
+    }
+    .tv2__title-text {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 27px 33px 10px 50px;
+    }
+    .tv2__bottomtext {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .tv2__num {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .tv2__text1 {
+        padding: 2px 0 30px 50px;
+    }
+
+    .tv2__text2 {
+        padding: 2px 0 30px 50px;
+    }
+
+    .tv2__text3 {
+        padding: 2px 0 30px 0px;
+    }
+    .tv2__text {
+        max-width: 286px;
+        font-size: 19px;
+        line-height: 24px;
+    }
+    .tv3__title-text {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 0 120px 20px 0px;
+    }
+    .tv3__nums-text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .tv3__nums-big {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .smm1__text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .smm1__nums-text, .mail1__title-text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .smm2__nums-text, .smm2__item-text, .smm3__nums-text, .smm3__item-text, .smm4__nums-text {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .smm2__nums {
+        max-width: 900px;
+    }
+    .smm3__nums {
+        gap: 90px;
+        padding: 0 70px 55px 25px;
+    }
+    .smm4__nums {
+        max-width: 1000px;
+    }
+    .mail1__container-inner {
+        padding: 62px 20px 44px 50px;
+    }
+    .mail1__main-text {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .mail1__main {
+        max-width: 700px;
+        gap: 36px;
+    }
+    .mail1__block {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .mail2__nums {
+        max-width: 570px;
+        padding: 33px 0 25px 50px;
+    }
+    .mail2__nums-text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .mail2__bottom {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .mail2__screen {
+        bottom: -50px;
+    }
+    .projects1__main {
+        max-width: 1000px;
+    }
+    .projects2__main-item {
+        max-width: 1000px;
+    }
+    .projects2__main-item p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .end__logos {
+        padding: 82px 0 0 56px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .home1__left {
+        max-width: 1199px;
+    } 
+    .home2__title1, .home2__title2 {
+        max-width: 1000px;
+    }
+    .home2__text1, .home2__text2-mob {
+        font-size: 20px;
+        line-height: 26px;
+        max-width: 1000px;
+    }
+    .home3__nums {
+        flex-direction: column;
+    }
+    .home3__item {
+        zoom: 0.65;
+    }
+    
+    .home4__item {
+        width: 148px;
+        min-height: 174px;
+    }
+    
+    .home4__item-icon {
+        width: 121px;
+        height: 139px;
+    }
+    .journals1__cover {
+        flex-grow: 1;
+        flex-basis: 153px;
+    }
+    .journals2__num {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    .journals2__text {
+        font-size: 11px;
+        line-height: 14px;
+        max-width: 218px;        
+        padding: 0px 0 19px 0;
+    }
+    .journals3__title-text {
+        font-size: 16px;
+        line-height: 19px;
+        max-width: 495px;
+        padding: 23px 50px 0 50px;
+    }
+    
+    .journals3__bottomtext {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .journals4__right-item {
+        min-width: 100px;
+        padding: 0 27px 27px 0;
+    }    
+    .journals4__right-logo {
+        zoom: 0.7;
+    }
+    .journals4__bottom {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .journals5__title-text {
+        font-size: 16px;
+        line-height: 19px;
+        padding: 0 120px 20px 0px;
+    }
+    .journals5__nums-text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .tv1__item-left,
+    .tv1__item-right,
+    .tv1__item-icon5,
+    .tv1__item-text {
+        zoom: 0.7;
+    }
+    .tv1__item-title {
+        font-size: 19px;
+        line-height: 19px;
+    }
+    .tv1__item {
+        height: 133px;
+        padding: 0 16px 14px 0;
+    }
+    .tv1__item-icon5 {
+        width: 86px;
+    }
+    .tv2__title-text {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 17px 33px 0 50px;
+    }
+    .tv2__bottomtext {
+        font-size: 11px;
+        line-height: 16px;
+    }
+    .tv2__num {
+        font-size: 39px;
+        line-height: 39px;
+    }
+    .tv2__text1 {
+        padding: 2px 0 11px 50px;
+    }
+
+    .tv2__text2 {
+        padding: 2px 0 11px 50px;
+    }
+
+    .tv2__text3 {
+        padding: 2px 0 11px 0px;
+    }
+    .tv2__text {
+        max-width: 179px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .tv3__title-text {
+        font-size: 16px;
+        line-height: 19px;
+        padding: 0 120px 20px 0px;
+    }
+    .tv3__nums-text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .tv3__nums-big {
+        font-size: 39px;
+        line-height: 39px;
+    }
+
+    .smm1__text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .smm1__nums-text {
+        font-size: 16px;
+        line-height: 17px;
+    }
+    .smm2__item-text, .smm2__nums-text, .smm3__nums-text, .smm3__item-text, .smm4__nums-text {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .smm2__nums {
+        max-width: 650px;
+    }
+    .smm3__nums {
+        gap: 74px;
+        padding: 0 42px 55px 25px;
+    }
+    .smm4__nums {
+        max-width: 730px;
+    }
+
+    .mail1__container-inner {
+        padding: 62px 20px 24px 50px;
+    }
+    .mail1__main-text {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .mail1__main {
+        max-width: 400px;
+        gap: 18px;
+    }
+
+    .mail1__block {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .mail2__nums {
+        max-width: 375px;
+        padding: 25px 0 17px 50px;
+    }
+    .mail2__nums-text {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .mail2__bottom {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .mail2__screen {
+        bottom: -7px;
+    }
+
+    .projects1__main {
+        max-width: 525px;
+    }
+    .projects2__main-item {
+        max-width: 453px;
+    }
+    .projects2__main-item p {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .end__logos {
+        padding: 42px 0 0 56px;
+    }
+
 }
