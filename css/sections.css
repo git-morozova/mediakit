@@ -2550,6 +2550,7 @@
     .smm3__screen {
         left: -21px;
         width: 548px;
+        top: 98px;
     }
 
     .smm3__nums,
@@ -3314,8 +3315,7 @@
     }
 
     .journals4__title {
-        width: 100%;
-        margin: 0 auto;
+        width: 75%;
         padding: 47px 50px 47px 50px;
     }
 
@@ -3344,7 +3344,7 @@
         font-weight: 700;
         width: 100%;
         margin: 0 auto;
-        padding: 55px 0 10px 0;
+        padding: 15px 0 10px 0;
         flex-direction: column;
     }
 
@@ -3694,7 +3694,7 @@
     }
 
     .tv1__bottom-inner {
-        padding: 15px 50px;
+        padding: 15px 50px 45px 50px;
         gap: 20px;
         flex-direction: column;
     }
@@ -4612,48 +4612,48 @@
     /* mail2 */
     .mail2__block {
         height: 842px;
-        background: url(../img/mail/mail2_back-mob.svg) no-repeat right bottom / 100%;
         width: 100%;
         height: 842px;
         color: var(--white);
         position: relative;
     }
-
+    .mail2__back {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    }
     .mail2__screen {
         position: absolute;
-        bottom: 17px;
+        bottom: -7px;
         left: -121px;
         width: 676px;
-        z-index: 1;
+        z-index: 5;
     }
 
     .mail2__container {
         width: 100%;
-        max-width: 1284px;
-        margin: 0 auto;
         position: relative;
     }
 
     .mail2__title {
         padding: 42px 20px 39px 50px;
         color: var(--violet);
-        max-width: 381px;
+        width: 66%;
     }
 
     .mail2__main {
         font-size: 30px;
         line-height: 30px;
         font-weight: 400;
-        max-width: 1250px;
         width: 100%;
-        margin: 0 auto;
-        padding: 2px 20px 43px 50px;
         color: var(--white);
+        background-color: var(--violet);
     }
 
     .mail2__nums {
         max-width: 375px;
-        padding: 21px 0 17px 0px;
+        padding: 25px 0 17px 50px;
         justify-content: center;
     }
 
@@ -4688,6 +4688,7 @@
     .mail2__bottom {
         font-size: 12px;
         line-height: 16px;
+        padding: 0 0 82px 50px;
     }
 
     /* projects1 */
