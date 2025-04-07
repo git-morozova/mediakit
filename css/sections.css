@@ -2611,13 +2611,13 @@
 }
 
 
-@media screen and (min-width: 769px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     .home1__left {
         max-width: 850px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     /* home1 */
     .home1__block {
@@ -2736,7 +2736,7 @@
 
     .home2__bottom {
         height: 88px;
-        margin: 213px 0 0 -50px;
+        margin: 113px 0 0 -50px;
         background-color: var(--violet);
         position: relative;
     }
@@ -2822,7 +2822,7 @@
     }
 
     .home3__row {
-        padding: 18px 0 0 0;
+        padding: 18px 20px 0 20px;
         gap: 0px;
         align-items: flex-start;
         justify-content: center;
@@ -2963,21 +2963,14 @@
     .home4__block {
         background-color: var(--white);
         width: 100%;
-        min-height: 800px;
+        min-height: 740px;
         color: var(--black);
-    }
-
-    .home4__center {
-        min-height: 800px;
-        max-width: 1284px;
-        width: 100%;
-        margin: 0 auto;
     }
 
     .home4__year {
         color: var(--violet);
         font-weight: 900;
-        padding: 53px 50px 0 50px;
+        padding: 76px 50px 0 50px;
         font-size: 63px;
         line-height: 63px;
     }
@@ -2990,7 +2983,7 @@
         align-items: flex-start;
         justify-content: center;
         flex-wrap: wrap;
-        padding: 62px 0;
+        padding: 62px 20px;
         gap: 27px;
     }
 
@@ -3025,15 +3018,12 @@
         width: 100%;
         color: var(--white);
         position: relative;
-        height: 842px;
+        min-height: 842px;
         background-color: var(--violet);
     }
 
     .journals1__left {
-        max-width: 1250px;
-        width: 100%;
-        margin: 0 auto;
-        height: 842px;
+        min-height: 842px;
         background: url("../img/home/home1_back-mob.svg") no-repeat right bottom / 100%;
     }
 
@@ -3068,13 +3058,12 @@
 
     .journals1__covers {
         gap: 17px;
-        padding: 0 50px 0 50px;
+        padding: 0 50px 50px 50px;
         flex-wrap: wrap;
     }
 
     .journals1__cover {
-        flex-shrink: 1;
-        flex-grow: 0;
+        flex-grow: 1;
         flex-basis: 153px;
     }
 
@@ -3555,7 +3544,6 @@
         font-size: 20px;
         line-height: 20px;
         font-weight: 400;
-        max-width: 561px;
         padding: 20px 0 0 0;
         text-align: center;
     }
@@ -3749,7 +3737,7 @@
         background-color: var(--white);
         color: var(--black);
         margin: 0;
-        padding: 37px 0 0 0px;
+        padding: 50px 0 0 0px;
     }
 
     .tv2__title {
@@ -3757,7 +3745,7 @@
         padding: 0px 0 0 50px;
         font-size: 33px;
         line-height: 38px;
-        width: 81%;
+        width: 78%;
     }
 
     .tv2__title-text {
@@ -4007,7 +3995,7 @@
     }
 
     .tv4__right {
-        padding: 86px 0px 0 0;
+        padding: 50px 0px 0 0;
         background-color: var(--white);
         color: var(--black);
         width: 100%;
@@ -4092,7 +4080,8 @@
         z-index: 5;
     }
 
-    .smm1__title {
+    .smm1__title {        
+        width: 80%;
         padding: 63px 20px 26px 50px;
         color: var(--violet);
     }
@@ -4119,7 +4108,7 @@
         max-width: 1250px;
         width: 100%;
         margin: 0 auto;
-        padding: 22px 20px 5px 35px;
+        padding: 22px 20px 5px 50px;
         justify-content: space-between;
         align-items: center;
         color: var(--white);
@@ -4217,7 +4206,7 @@
         width: 100%;
         color: var(--white);
         position: relative;
-        margin: 65px 0 0 0;
+        margin: 15px 0 0 0;
     }
 
     .smm2__title {
@@ -4230,7 +4219,7 @@
         width: 100%;
         color: var(--white);
         position: relative;
-        margin: -2px 0 400px 0;
+        margin: -2px 0 420px 0;
     }
 
     .smm2__main {
@@ -4247,7 +4236,7 @@
 
     .smm2__img {
         position: absolute;
-        top: 271px;
+        top: 221px;
         right: 0;
         width: 157px;
         z-index: 5;
@@ -4255,7 +4244,7 @@
 
     .smm2__screen {
         position: absolute;
-        top: 406px;
+        top: 356px;
         right: -178px;
         width: 659px;
         z-index: 10;
@@ -4322,7 +4311,7 @@
         width: 100%;
         color: var(--white);
         position: relative;
-        margin: 65px 0 0 0;
+        margin: 0px 0 0 0;
     }
 
     .smm3__title {
@@ -4734,7 +4723,7 @@
         line-height: 39px;
         font-weight: 700;
         margin: 0 auto;
-        padding: 44px 38px 0 30px;
+        padding: 44px 38px 57px 30px;
         flex-wrap: wrap;
         max-width: 525px; 
         gap: 17px; 
