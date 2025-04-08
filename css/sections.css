@@ -1,3 +1,4 @@
+
 @media screen and (min-width: 1200px) {
 
     /* home1 */
@@ -2373,9 +2374,9 @@
         width: 187px;
         margin: 0 auto;
     }
+   
 }
-
-@media screen and (min-width: 1200px) and (max-width: 1399px) {
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
 
     .home1__left,
     .journals4__main,
@@ -2604,7 +2605,7 @@
     }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1199.9999px) {
 
     /* home1 */
     .home1__block {
@@ -4647,10 +4648,12 @@
         margin: 0 auto;
         padding: 16px 70px 37px 50px;
         justify-content: space-between;
+        min-height: 90px;
     }
 
     .projects2__top h2 {
-        padding: 16px 0 0 0;
+        padding: 16px 45px 0 0;
+        margin: auto 0;
     }
 
     .projects2__main-container {
@@ -4678,7 +4681,7 @@
         padding: 43px 0 0 0px;
 
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 100px auto 100px;
         grid-template-rows: repeat(2, 1fr);
         gap: 22px;
     }
@@ -4689,6 +4692,7 @@
 
     .projects2__main-item img {
         padding-bottom: 12px;
+        width: 100%;
     }
 
     .projects2__main-item p {
@@ -4706,7 +4710,6 @@
 
     .projects2__img_left {
         grid-row: span 2 / span 2;
-        width: 50px;
         padding: 14px 0 0 0;
     }
 
@@ -4714,7 +4717,7 @@
         grid-row: span 2 / span 2;
         grid-column-start: 3;
         grid-row-start: 1;
-        margin: auto 0 0 0;
+        margin: auto 0 0 auto;
     }
 
     /* end */
@@ -4797,9 +4800,10 @@
     .projects2__block2 {
         display: none;
     }
+  
 }
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+  
+@media screen and (min-width: 768px) and (max-width: 1199.9999px) {
     .home1__left {
         max-width: 1199px;
     } 
@@ -4998,10 +5002,18 @@
     .end__logos {
         padding: 82px 0 0 56px;
     }
+    .projects2__img_left {
+        width: 76px;
+    }
+
+    .projects2__img_right {
+        width: 57px;
+    }
+
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.9999px) {
     .home1__left {
         max-width: 1199px;
     } 
@@ -5203,5 +5215,7 @@
     .end__logos {
         padding: 42px 0 0 56px;
     }
-
+    .projects2__img_left {
+        width: 50px;
+    }
 }
