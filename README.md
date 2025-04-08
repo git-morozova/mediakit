@@ -13,3 +13,7 @@
 
 - скачать архив с проектом, распаковать
 - запустить live-server
+
+### Лендинг доступен по ссылке
+
+- [mediakit.mediasphera.ru](https://mediakit.mediasphera.ru)
